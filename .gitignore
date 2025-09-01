@@ -1,4 +1,22 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
 env/
 venv/
-__pycache__/
-*.pyc/
+.venv/
+
+# Ignore model checkpoints (can be very large)
+*.h5
+*.pkl
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system/IDE files
+.vscode/
+.idea/
+.DS_Store
